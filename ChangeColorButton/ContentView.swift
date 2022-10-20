@@ -70,7 +70,7 @@ struct ContentView: View {
             }
         }
     }
-        .ignoresSafeArea(.all)
+       
 }
 
 struct ContentView_Previews: PreviewProvider {
