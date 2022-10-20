@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392FB1F429017D71001D1131 /* ChangeColorButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FB1F329017D71001D1131 /* ChangeColorButtonApp.swift */; };
+		392FB1F629017D71001D1131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FB1F529017D71001D1131 /* ContentView.swift */; };
+		392FB1F829017D72001D1131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392FB1F729017D72001D1131 /* Assets.xcassets */; };
+		392FB1FB29017D72001D1131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392FB1FA29017D72001D1131 /* Preview Assets.xcassets */; };
+		392FB20529017D72001D1131 /* ChangeColorButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FB20429017D72001D1131 /* ChangeColorButtonTests.swift */; };
+		392FB20F29017D72001D1131 /* ChangeColorButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FB20E29017D72001D1131 /* ChangeColorButtonUITests.swift */; };
+		392FB21129017D72001D1131 /* ChangeColorButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FB21029017D72001D1131 /* ChangeColorButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		392FB20129017D72001D1131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392FB1E829017D71001D1131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392FB1EF29017D71001D1131;
+			remoteInfo = ChangeColorButton;
+		};
+		392FB20B29017D72001D1131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392FB1E829017D71001D1131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392FB1EF29017D71001D1131;
+			remoteInfo = ChangeColorButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392FB1F029017D71001D1131 /* ChangeColorButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeColorButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392FB1F329017D71001D1131 /* ChangeColorButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButtonApp.swift; sourceTree = "<group>"; };
+		392FB1F529017D71001D1131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		392FB1F729017D72001D1131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		392FB1FA29017D72001D1131 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		392FB20029017D72001D1131 /* ChangeColorButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeColorButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392FB20429017D72001D1131 /* ChangeColorButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButtonTests.swift; sourceTree = "<group>"; };
+		392FB20A29017D72001D1131 /* ChangeColorButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeColorButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392FB20E29017D72001D1131 /* ChangeColorButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButtonUITests.swift; sourceTree = "<group>"; };
+		392FB21029017D72001D1131 /* ChangeColorButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392FB1ED29017D71001D1131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392FB1FD29017D72001D1131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392FB20729017D72001D1131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392FB1E729017D71001D1131 = {
+			isa = PBXGroup;
+			children = (
+				392FB1F229017D71001D1131 /* ChangeColorButton */,
+				392FB20329017D72001D1131 /* ChangeColorButtonTests */,
+				392FB20D29017D72001D1131 /* ChangeColorButtonUITests */,
+				392FB1F129017D71001D1131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		392FB1F129017D71001D1131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				392FB1F029017D71001D1131 /* ChangeColorButton.app */,
+				392FB20029017D72001D1131 /* ChangeColorButtonTests.xctest */,
+				392FB20A29017D72001D1131 /* ChangeColorButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392FB1F229017D71001D1131 /* ChangeColorButton */ = {
+			isa = PBXGroup;
+			children = (
+				392FB1F329017D71001D1131 /* ChangeColorButtonApp.swift */,
+				392FB1F529017D71001D1131 /* ContentView.swift */,
+				392FB1F729017D72001D1131 /* Assets.xcassets */,
+				392FB1F929017D72001D1131 /* Preview Content */,
+			);
+			path = ChangeColorButton;
+			sourceTree = "<group>";
+		};
+		392FB1F929017D72001D1131 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				392FB1FA29017D72001D1131 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		392FB20329017D72001D1131 /* ChangeColorButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				392FB20429017D72001D1131 /* ChangeColorButtonTests.swift */,
+			);
+			path = ChangeColorButtonTests;
+			sourceTree = "<group>";
+		};
+		392FB20D29017D72001D1131 /* ChangeColorButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				392FB20E29017D72001D1131 /* ChangeColorButtonUITests.swift */,
+				392FB21029017D72001D1131 /* ChangeColorButtonUITestsLaunchTests.swift */,
+			);
+			path = ChangeColorButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		392FB1EF29017D71001D1131 /* ChangeColorButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392FB21429017D72001D1131 /* Build configuration list for PBXNativeTarget "ChangeColorButton" */;
+			buildPhases = (
+				392FB1EC29017D71001D1131 /* Sources */,
+				392FB1ED29017D71001D1131 /* Frameworks */,
+				392FB1EE29017D71001D1131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeColorButton;
+			productName = ChangeColorButton;
+			productReference = 392FB1F029017D71001D1131 /* ChangeColorButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		392FB1FF29017D72001D1131 /* ChangeColorButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392FB21729017D72001D1131 /* Build configuration list for PBXNativeTarget "ChangeColorButtonTests" */;
+			buildPhases = (
+				392FB1FC29017D72001D1131 /* Sources */,
+				392FB1FD29017D72001D1131 /* Frameworks */,
+				392FB1FE29017D72001D1131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392FB20229017D72001D1131 /* PBXTargetDependency */,
+			);
+			name = ChangeColorButtonTests;
+			productName = ChangeColorButtonTests;
+			productReference = 392FB20029017D72001D1131 /* ChangeColorButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		392FB20929017D72001D1131 /* ChangeColorButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392FB21A29017D72001D1131 /* Build configuration list for PBXNativeTarget "ChangeColorButtonUITests" */;
+			buildPhases = (
+				392FB20629017D72001D1131 /* Sources */,
+				392FB20729017D72001D1131 /* Frameworks */,
+				392FB20829017D72001D1131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392FB20C29017D72001D1131 /* PBXTargetDependency */,
+			);
+			name = ChangeColorButtonUITests;
+			productName = ChangeColorButtonUITests;
+			productReference = 392FB20A29017D72001D1131 /* ChangeColorButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392FB1E829017D71001D1131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					392FB1EF29017D71001D1131 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					392FB1FF29017D72001D1131 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 392FB1EF29017D71001D1131;
+					};
+					392FB20929017D72001D1131 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 392FB1EF29017D71001D1131;
+					};
+				};
+			};
+			buildConfigurationList = 392FB1EB29017D71001D1131 /* Build configuration list for PBXProject "ChangeColorButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392FB1E729017D71001D1131;
+			productRefGroup = 392FB1F129017D71001D1131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				392FB1EF29017D71001D1131 /* ChangeColorButton */,
+				392FB1FF29017D72001D1131 /* ChangeColorButtonTests */,
+				392FB20929017D72001D1131 /* ChangeColorButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		392FB1EE29017D71001D1131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392FB1FB29017D72001D1131 /* Preview Assets.xcassets in Resources */,
+				392FB1F829017D72001D1131 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392FB1FE29017D72001D1131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392FB20829017D72001D1131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		392FB1EC29017D71001D1131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392FB1F629017D71001D1131 /* ContentView.swift in Sources */,
+				392FB1F429017D71001D1131 /* ChangeColorButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392FB1FC29017D72001D1131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392FB20529017D72001D1131 /* ChangeColorButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392FB20629017D72001D1131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392FB21129017D72001D1131 /* ChangeColorButtonUITestsLaunchTests.swift in Sources */,
+				392FB20F29017D72001D1131 /* ChangeColorButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392FB20229017D72001D1131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392FB1EF29017D71001D1131 /* ChangeColorButton */;
+			targetProxy = 392FB20129017D72001D1131 /* PBXContainerItemProxy */;
+		};
+		392FB20C29017D72001D1131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392FB1EF29017D71001D1131 /* ChangeColorButton */;
+			targetProxy = 392FB20B29017D72001D1131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		392FB21229017D72001D1131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		392FB21329017D72001D1131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392FB21529017D72001D1131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChangeColorButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N9958M954;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.ChangeColorButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		392FB21629017D72001D1131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChangeColorButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N9958M954;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.ChangeColorButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		392FB21829017D72001D1131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.ChangeColorButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeColorButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChangeColorButton";
+			};
+			name = Debug;
+		};
+		392FB21929017D72001D1131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.ChangeColorButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeColorButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChangeColorButton";
+			};
+			name = Release;
+		};
+		392FB21B29017D72001D1131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.ChangeColorButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangeColorButton;
+			};
+			name = Debug;
+		};
+		392FB21C29017D72001D1131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.ChangeColorButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangeColorButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392FB1EB29017D71001D1131 /* Build configuration list for PBXProject "ChangeColorButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392FB21229017D72001D1131 /* Debug */,
+				392FB21329017D72001D1131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392FB21429017D72001D1131 /* Build configuration list for PBXNativeTarget "ChangeColorButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392FB21529017D72001D1131 /* Debug */,
+				392FB21629017D72001D1131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392FB21729017D72001D1131 /* Build configuration list for PBXNativeTarget "ChangeColorButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392FB21829017D72001D1131 /* Debug */,
+				392FB21929017D72001D1131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392FB21A29017D72001D1131 /* Build configuration list for PBXNativeTarget "ChangeColorButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392FB21B29017D72001D1131 /* Debug */,
+				392FB21C29017D72001D1131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 392FB1E829017D71001D1131 /* Project object */;
+}
